@@ -1,4 +1,4 @@
-package package001
+package main
 
 import "fmt"
 
@@ -11,6 +11,10 @@ func Welcome() {
 func main() {
 
 	Welcome()
+
+	for i := 0; i < 10; i++ {
+		fmt.Println("Hello, World! ", i)
+	}
 
 	// Examples of primitive data types
 	var number int = 10
